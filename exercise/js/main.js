@@ -42,9 +42,8 @@ $("#button1").on('click', question1);
 
 	$(".falseFact").html("True Fact");
 
-	}
-
-   $("#button1").on('click', question3);
+}  
+    $("#button1").on('click', question3);
 
 
 //SECTION 2: Now you are on your own. Write the necessary code to accomplish the following.
@@ -54,38 +53,35 @@ $("#button1").on('click', question1);
  * When button 2 is clicked, change the background color of the whole page to "pink"
  */
 
- function question4(){
+      function question4(){
 
-$('body').css('background-color', 'pink')
-	
+	  $('body').css('background-color', 'pink')
+	  
 }
-
-$('#button2').on('click',question4)
+      $('#button2').on('click',question4)
 
 /**
  * Question 5:
  * When button 2 is clicked, change the color of all h2's to "green"
  */
 
-function question5(){
-	
-	$('h1').css('color', 'green')
+    function question5(){
+
+    $('h1').css('color', 'green')
 	
 }
 
-$('#button2').on('click', question5)
+    $('#button2').on('click', question5)
 
 /**
  * Question 6:
  * When button 2 is clicked, change the html content of all "blockquotes" to be "<span>no quote</span>"
  */
 
- function question6(){
-
- $('blockquote').html("<span>no quote</span>")
-
- }
- $('#button2').on('click', question6)
+  function question6(){
+  $('blockquote').html("<span>no quote</span>")
+}
+  $('#button2').on('click', question6)
 
 //SECTION 3: This section is more difficult. Try your hand at the next 3 questions.
 
@@ -93,9 +89,10 @@ $('#button2').on('click', question5)
  * Question 7:
  * When button 3 is clicked, change the text in the header's h1 tag to read "jQuery Ninja"
  */
-function question7(){
 
-$('h1').html("jQuery Ninja")
+ function question7(){
+
+ $('h1').html("jQuery Ninja")
 }
 
  $('#button3').on('click', question7 )
@@ -105,24 +102,24 @@ $('h1').html("jQuery Ninja")
  * Have the following code execute when button 3 is clicked.
  * $(".city").attr("src", "http://lorempixel.com/g/500/400/food");
  */
-/
- * function question8(){
 
-$(".city").attr("src", "http://lorempixel.com/g/500/400/food");
+
+  function question8(){
+   $(".city").attr("src", "http://lorempixel.com/g/500/400/food");
 
 }
 
-$('#button3').on('click',question8) */
+   $('#button3').on('click',question8) 
 
- * Question 9:
+ /** Question 9:
  * When button 3 is clicked, select all paragraphs on the page and change the color to blue and font to Georgia.
  */
 
- function question9(){
+    function question9(){
 	
 	$('p').css('color','blue').css('font', 'Georgia')
 }
-$('#button3').on('click',question9)  
+     $('#button3').on('click',question9)  
 
 /**
  * Question 10:
