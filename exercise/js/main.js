@@ -52,9 +52,10 @@ $("#button1").on('click', question1);
  * Question 4:
  * When button 2 is clicked, change the background color of the whole page to "pink"
  */
-
-
-
+function question4(){
+	$("body").css("background", "pink");
+}
+$("#button2").on('click', question4);
 /**
  * Question 5:
  * When button 2 is clicked, change the color of all h2's to "green"
