@@ -94,19 +94,27 @@ $("#button3").on('click', question7);
  * Have the following code execute when button 3 is clicked.
  * $(".city").attr("src", "http://lorempixel.com/g/500/400/food");
  */
-
+function question8() {
+	$('figure > img').attr('src', "http://lorempixel.com/g/500/400/food");
+}
+	$("#button3").on('click', question8);
 
 /**
  * Question 9:
  * When button 3 is clicked, select all paragraphs on the page and change the color to blue and font to Georgia.
  */
-
+// function question9() {
+// $("P").css("color", "blue")
+// $("P").css("font-family", "Georgia")
+// }
+// $("#button3").on('click', question9);
 
 /**
  * Question 10:
  * Try to do Question 9 but with only one jQuery call. $("selector").css({attribute: "value", attribute: "value"})
  */
-
-
-
+function question10() {
+$("P").css({color: "blue", 'font-family': "Georgia"})
+}
+$("#button3").on('click', question10);
 
