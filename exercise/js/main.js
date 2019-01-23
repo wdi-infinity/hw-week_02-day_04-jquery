@@ -72,7 +72,10 @@ $("#button2").on('click', question5);
  * Question 6:
  * When button 2 is clicked, change the html content of all "blockquotes" to be "<span>no quote</span>"
  */
-
+function question6() {
+	$("blockquote").replaceWith("<span>no quote</span>");
+}
+$("#button2").on('click', question6);
 
 //SECTION 3: This section is more difficult. Try your hand at the next 3 questions.
 
