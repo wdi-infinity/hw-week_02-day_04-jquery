@@ -40,7 +40,8 @@ $("#button1").on('click', question1);
  */
 
 	 function question3(){
-	 	$(".falseFact").removeClass("falseFact").addClass("True Fact");
+		 $(".falseFact").removeClass("falseFact").addClass("True Fact");
+		 ; 
 	 }
 
 	 $("#button1").on('click', question3);
@@ -61,7 +62,11 @@ $("#button2").on('click', question4);
  * When button 2 is clicked, change the color of all h2's to "green"
  */
 
-
+function question5() {
+	$("H2").css("color", "green");
+	return question5;
+}
+$("#button2").on('click', question5);
 
 /**
  * Question 6:
