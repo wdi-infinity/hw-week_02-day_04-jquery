@@ -27,7 +27,7 @@ $("#button1").on('click', question1);
  */
 
 	function question2(){
-		$("H2").replaceWith("Mohammad Alahmari");
+		$("h2").html("Mohammad Alahmari");
 	}
 
 	$("#button1").on('click', question2);
