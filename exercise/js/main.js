@@ -1,7 +1,7 @@
 /**
  * Javascript/jQuery Exercises: Selecting Things In The DOM!
 * Answer the following questions. This practice set gets progressively harder.
-* Remember to test each question, before moving on. Once you're achieved the desired outcome, comment out the code and 
+* Remember to test each question, before moving on. Once you're achieved the desired outcome, comment out the code and
 * move on to the next question.
  */
 
@@ -15,7 +15,7 @@
  */
 
 function question1() {
-	$("replaceMe").css("replaceMe", "replaceMe");
+	$("p").css("color", "blue");
 }
 
 $("#button1").on('click', question1);
@@ -26,11 +26,11 @@ $("#button1").on('click', question1);
  * Uncomment the code below and solve the problem
  */
 
-	// function question2(){
-	// 	$("replaceMe").replaceMe("replaceMe");
-	// }
+function question2(){
+	$("h2").text("Majd");
+ }
 
-	// $("#button1").on('click', question2);
+ $("#button1").on('click', question2);
 
 /**
  * Question 3:
@@ -39,11 +39,11 @@ $("#button1").on('click', question1);
  * Uncomment the code below and solve the problem
  */
 
-	// function question3(){
-	// 	$("replaceMe").html("replaceMe");
-	// }
+function question3(){
+	$(".falseFact").html("True Fact");
+ }
 
-	// $("#button1").on('click', question3);
+$("#button1").on('click', question3);
 
 
 //SECTION 2: Now you are on your own. Write the necessary code to accomplish the following.
@@ -53,6 +53,11 @@ $("#button1").on('click', question1);
  * When button 2 is clicked, change the background color of the whole page to "pink"
  */
 
+ function question4() {
+ 	$("body").css("background-color", "pink");
+ }
+
+ $("#button2").on('click', question4);
 
 
 /**
@@ -60,6 +65,11 @@ $("#button1").on('click', question1);
  * When button 2 is clicked, change the color of all h2's to "green"
  */
 
+ function question5() {
+ 	$("h2").css("color", "green");
+ }
+
+ $("#button2").on('click', question5);
 
 
 /**
@@ -67,6 +77,11 @@ $("#button1").on('click', question1);
  * When button 2 is clicked, change the html content of all "blockquotes" to be "<span>no quote</span>"
  */
 
+ function question6() {
+ 	$("blockquote").html("<span>no quote</span>");
+ }
+
+ $("#button2").on('click', question6);
 
 //SECTION 3: This section is more difficult. Try your hand at the next 3 questions.
 
@@ -75,6 +90,11 @@ $("#button1").on('click', question1);
  * When button 3 is clicked, change the text in the header's h1 tag to read "jQuery Ninja"
  */
 
+ function question7() {
+ 	$("h1").text("jQuery Ninja");
+ }
+
+ $("#button3").on('click', question7);
 
 /**
  * Question 8:
@@ -82,18 +102,26 @@ $("#button1").on('click', question1);
  * $(".city").attr("src", "http://lorempixel.com/g/500/400/food");
  */
 
+ function question8() {
+ 	$(".city").attr("src", "http://lorempixel.com/g/500/400/food");
+ }
+
+ $("#button3").on('click', question8);
 
 /**
  * Question 9:
  * When button 3 is clicked, select all paragraphs on the page and change the color to blue and font to Georgia.
  */
 
+ function question9() {
+  $("p").css({"color": "blue", "font-family": "Georgia"});
+ }
+
+ $("#button3").on('click', question9);
 
 /**
  * Question 10:
  * Try to do Question 9 but with only one jQuery call. $("selector").css({attribute: "value", attribute: "value"})
  */
 
-
-
-
+// already done in Q9.
